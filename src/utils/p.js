@@ -6,11 +6,11 @@ export const convertToP = (phrase) => {
 
     capitalizedPhrase.split('')
         .forEach((char) => {
-            codedPhrase += char;
-            if (vowels.includes(char.toLowerCase())) {
-                if(vowels.indexOf(char.toLowerCase()) % 2 != 0) codedPhrase += "p" + vowels[vowels.indexOf(char.toLowerCase()) - 1];
-                else codedPhrase += "p" + char.toLowerCase();
+            if(vowels.includes(char.toLowerCase())) {
+                if(vowels.indexOf(char.toLowerCase()) % 2 != 0) codedPhrase += vowels[vowels.indexOf(char.toLowerCase()) - 1] + "p" + char;
+                else codedPhrase += char.toLowerCase() + "p" + char.toLowerCase();
             }
+            else codedPhrase += char;
         });
     return codedPhrase;
 }
