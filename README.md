@@ -18,7 +18,7 @@ The The-P-Project is an innovative software 🌟 that transforms standard langua
 Clone the repository to your local machine. 📥
 Run the application with the command `npm install` and then, run the command `npm run dev`. 🖊️
 The translated text in P language will be displayed instantly in the graphical user interface. 📃
-Note: For visualization purposes only, you can directly use the link: [[title](https://the-p-project-c695c.web.app/)]
+Note: For visualization purposes only, you can directly use the link: [https://the-p-project-c695c.web.app/](https://the-p-project-c695c.web.app/)
 
 ## Use Cases 💡
 Educational Tool 🎓: Enhances understanding of language patterns and phonetics. Great for students and language enthusiasts.
